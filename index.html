@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: grid;
+            place-items: center;
+            height: 100vh;
+        }
+
+        .main {
+            height: 300px;
+            width: 300px;
+            border: 2px solid green;
+            color: black;
+            text-wrap: wrap;
+            text-align: center;
+            /* vertical-align: center; */
+            display: grid;
+            place-items: center;
+            border-radius: 30px;
+        }
+
+        .main p {
+            font-size: 24px;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        button {
+            padding: 20px 20px;
+            font-size: 24px;
+            border: none;
+            background-color: lightgray;
+            cursor: pointer;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <p></p>
+    </div>
+    <button>click to change the random color of box</button>
+
+
+    
+
+    
+    <script src="Color.js"></script>
+</body>
+
+</html>
